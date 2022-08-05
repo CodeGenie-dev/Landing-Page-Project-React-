@@ -4,3 +4,20 @@
   font-family: Poppins;
   text-align: center;
 }
+.HeroSection {
+  background-image: url("https://assets.codepen.io/6060109/agency-hero-image.png");
+  height: 500px;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ul {
+  list-style-type: none;
+}
+.ServicesSection {
+  text-align: center;
+}
+.ServiceBlocks {
+  display: flex;
+  color: #806c6c;
+}
