@@ -103,4 +103,7 @@ button {
   .ServiceBlock h5 {
     font-size: 20px;
   }
+  .MainText {
+    padding: 0 10px;
+  }
 }
