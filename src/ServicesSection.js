@@ -5,19 +5,19 @@ var ServiceBlockUrl3 = "https://assets.codepen.io/6060109/agency-service-3.png";
 export default function ServicesSection() {
   return (
     <div className="ServicesSection">
-      <h2>OUR SERVICES</h2>
+      <h2>Our services</h2>
       <div className="ServiceBlocks">
-        <div>
-          <img src={ServiceBlockUrl1} />
-          <h5>WEB DESIGN</h5>
+        <div className="ServiceBlock">
+          <img src={ServiceBlockUrl1} alt="" />
+          <h5>Web Design</h5>
         </div>
-        <div>
-          <img src={ServiceBlockUrl2} />
-          <h5>ECOMMERCE</h5>
+        <div className="ServiceBlock">
+          <img src={ServiceBlockUrl2} alt="" />
+          <h5>Ecommerce</h5>
         </div>
-        <div>
-          <img src={ServiceBlockUrl3} />
-          <h5>AUTOMATION</h5>
+        <div className="ServiceBlock">
+          <img src={ServiceBlockUrl3} alt="" />
+          <h5>Automation</h5>
         </div>
       </div>
     </div>

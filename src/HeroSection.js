@@ -2,14 +2,14 @@ export default function HeroSection() {
   return (
     <div className="HeroSection">
       <div>
-        <ul className="Nav">
-          <li>HOME</li>
-          <li>OUR SERVICES</li>
-          <li>SUBSCRIBE</li>
+        <ul>
+          <li>Home</li>
+          <li>Our Services</li>
+          <li>Subscribe</li>
         </ul>
       </div>
-      <div>
-        <h2>WE DO WEBSITES RIGHT</h2>
+      <div className="MainText">
+        <h1>We do websites right</h1>
       </div>
     </div>
   );
