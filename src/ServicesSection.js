@@ -25,7 +25,7 @@ export default function ServicesSection() {
   );
 }
 */
-// Using map() function
+import ServiceBlock from "./ServiceBlock";
 const SERVICE_BLOCK_DATA = [
   {
     imgURL: "https://assets.codepen.io/6060109/agency-service-1.png",
@@ -41,6 +41,8 @@ const SERVICE_BLOCK_DATA = [
   }
 ];
 
+// Using map() function
+/*
 export default function ServicesSection() {
   return (
     <div className="ServicesSection">
@@ -53,6 +55,20 @@ export default function ServicesSection() {
               <h5>{block.title}</h5>
             </div>
           );
+        })}
+      </div>
+    </div>
+  );
+}
+*/
+// Using REACT props
+export default function ServicesSection() {
+  return (
+    <div className="ServicesSection">
+      <h2>Our services</h2>
+      <div className="ServiceBlocks">
+        {SERVICE_BLOCK_DATA.map((block) => {
+          return <ServiceBlock block={block} />;
         })}
       </div>
     </div>
