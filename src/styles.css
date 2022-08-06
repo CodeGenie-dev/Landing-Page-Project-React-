@@ -9,7 +9,7 @@
   text-transform: uppercase;
 }
 .HeroSection {
-  background: linear-gradient(rgba(37, 1, 1, 0.281), rgba(31, 1, 1, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://assets.codepen.io/6060109/agency-hero-image.png");
   height: 500px;
   color: white;
